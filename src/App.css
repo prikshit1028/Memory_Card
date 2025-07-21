@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Inconsolata:wght@200..900&display=swap");
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
 }
 
 .logo {
@@ -39,4 +40,64 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.cardd {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  /* background-color: #266602; */
+  background-color: #025749;
+  cursor: pointer;
+  font-family: "Handlee", cursive;
+}
+
+.cardd:hover {
+  box-shadow: 0px 2px 2px 0px rgb(6, 155, 241),
+    0px 3px 1px -2px rgb(5, 156, 243), 0px 1px 5px 0px rgb(6, 122, 230);
+}
+
+h3 {
+  font-size: 26px;
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
+  /* font-weight: bolder; */
+}
+.images {
+  align-self: flex-start;
+  border-radius: 9px 9px 1px 1px;
+  /* border: 1px solid yellow; */
+}
+
+.names {
+  /* border: 1px solid purple; */
+  align-self: center;
+}
+
+.flexcontainer {
+  /* border: 1px solid white; */
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Manufacturing Consent", cursive;
+  /* font-weight: 400; */
+  font-size: 63px;
+  margin-bottom: 34px;
+  margin-top: 34px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Inconsolata", monospace;
+  font-size: 18.25px;
 }

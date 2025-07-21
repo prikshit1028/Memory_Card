@@ -6,6 +6,10 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  background-color: rgba(255, 72, 0, 0.822);
+  /* background-color: rgba(255, 81, 0, 0.356); */
+
+  /* background-color: #8b4513; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,7 +29,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
   min-height: 100vh;
 }
