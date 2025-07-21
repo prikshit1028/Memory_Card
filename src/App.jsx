@@ -33,12 +33,12 @@ function App() {
   let [fetched,setFetched] = useState([]);
   let finalArray = [];
  if(!(fetched.length==0)) {finalArray = shuffleArray(fetched);
-  alert( 'randomize was run ')
+  // alert( 'randomize was run ')
 }
 
 
    useEffect(() => {
-    alert('effect was run')
+    // alert('effect was run')
    
    Promise.all(
     urls.map(url =>
